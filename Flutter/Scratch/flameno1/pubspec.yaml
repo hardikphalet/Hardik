@@ -1,0 +1,32 @@
+name: flameno1
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: 1.0.0-rc1
+  flame_audio: 0.1.0-rc1
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: false
+  assets:
+    - assets/images/crate.png
+    - assets/images/explosion.png
+    - assets/audio/explosion.mp3
+    - assets/audio/miss.mp3
+    - assets/audio/music.ogg
+
+  fonts:
+    - family: Halo
+      fonts:
+        - asset: assets/fonts/halo.ttf
